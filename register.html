@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="Arabia">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Registration Form</h1>
+
+      <form class="my-form" action="" method="">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+           class="my-input"
+          placeholder="Enter your full name"
+          required
+        />
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+           class="my-input"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+       
+          type="password"
+           class="my-input"
+          placeholder="Enter your password"
+          required
+        />
+        <label for="phone">Phone Number</label>
+        <input
+        
+          type="number"
+           class="my-input"
+          placeholder="Enter your phone number"
+          required
+        />
+
+        <label>Gender</label>
+        <div class="gender-type">
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <label> </label>
+            <input type="radio" name="gender" value="female" /> Female</label
+          >
+        </div>
+
+        <label>Country</label>
+        <select  >
+          <option value="">Select your country</option>
+          <option value="yemen">Yemen</option>
+          <option value="ksa">Saudi Arabia</option>
+          <option value="egypt">Egypt</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+        </select>
+
+        <label for="photo">Upload Profile Photo</label>
+        <input 
+        
+        type="file" 
+         class="my-input"
+         accept="image/*" />
+
+        <div class="checkbox">
+          <input type="checkbox" id="agree" required />
+          <label for="agree">I agree to the terms and conditions</label>
+        </div>
+
+        <button onclick="window.location.href='home.html'" type="submit" class="btn-submit">Register</button>
+      </form>
+    </div>
+  
+  </body>
+</html>

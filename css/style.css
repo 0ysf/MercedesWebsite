@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background: #2473c3;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  width: 380px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.form-title {
+  text-align: center;
+  color: #2473c3;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form input[type="password"],
+.my-form input[type="number"],
+.my-form input[type="tel"],
+.my-form input[type="file"],
+.my-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cec8c8;
+  border-radius: 8px;
+}
+
+.gender-type {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #0984e3;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}

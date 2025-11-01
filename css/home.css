@@ -6,6 +6,9 @@
 }
 
 
+.background-login{
+  background-image: none;
+}
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -170,6 +173,7 @@
 .head-image img {
   max-width: 450px;
   width: 100%;
+  border-radius: 80%;
 }
 
 .models {

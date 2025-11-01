@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Mercedes</title>
       <link rel="stylesheet" href="./css/home.css" />
-    
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+    }
+
+    .hero-about {
+      background: url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366') center/cover no-repeat;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+    }
+
+    .value-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: 0.3s;
+      height: 100%;
+    }
+
+    .value-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .value-box i {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 
 <body>
-      
+
+   
   <header class="navbar">
       <div class="profile">
         <img src="./images/11.jpg" alt="Profile" />
@@ -22,11 +62,76 @@
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
-        <a href="register.html">Register</a>
+        <a href="login.html" >login</a>
 
       </nav>
     </header>
-  
-    <h1 class="h1">about us page</h1>
-</body>
-</html>
+
+<!-- Hero -->
+<div class="hero-about">
+  <h1>About Mercedes-Benz</h1>
+  <p>Luxury. Innovation. Performance.</p>
+</div>
+
+<!-- About Content -->
+<div class="container py-5">
+
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <h2>Who We Are</h2>
+      <p>
+        Mercedes-Benz is a global luxury automotive brand known for innovation,
+        design, advanced technology, and uncompromising safety.
+      </p>
+      <p>
+        Since 1926, we have led the world in engineering excellence —
+        creating vehicles that define the future of mobility.
+      </p>
+      <a href="contact.html" class="btn btn-dark mt-2">Contact Us</a>
+    </div>
+
+    <div class="col-md-6">
+      <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" 
+           class="img-fluid rounded shadow">
+    </div>
+  </div>
+
+<h3 class="text-center mb-4">Our Services</h3>
+
+<div class="row g-4">
+
+  <div class="col-md-4">
+    <a href="services.html" class="text-decoration-none text-dark">
+      <div class="value-box">
+        <i class="bi bi-car-front"></i>
+        <h5>Luxury Cars</h5>
+        <p>Exclusive collection of luxury and performance cars with cutting-edge technology.</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
+    <a href="services.html" class="text-decoration-none text-dark">
+      <div class="value-box">
+        <i class="bi bi-tools"></i>
+        <h5>Maintenance & Support</h5>
+        <p>Authorized service centers with premium maintenance and warranty solutions.</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
+    <a href="services.html" class="text-decoration-none text-dark">
+      <div class="value-box">
+        <i class="bi bi-lightning-charge"></i>
+        <h5>Electric Mobility</h5>
+        <p>Leading electric vehicle technology with sustainable future mobility.</p>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<div class="text-center mt-4">
+  <a href="services.html" class="btn btn-dark px-4">View All Services</a>
+</div>

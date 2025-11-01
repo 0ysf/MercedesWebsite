@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+.background-login {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-login img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     
+  filter: brightness(60%); 
+}
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 40px 35px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+
+.my-input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.my-input:focus,
+select:focus {
+  border-color: #0078d4;
+}
+
+
+.gender-type {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+
+.checkbox {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #005fa3;
+}
